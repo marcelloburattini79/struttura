@@ -14,7 +14,7 @@ class Fighter:
 
     def __str__(self):
 
-        return 'Combattente: ' + self.nome
+        return 'Combattente: ' + self.nome + ' - Età: ' + str(self.eta)
 
 
 
